@@ -65,7 +65,7 @@ changeBackground = function () {
     backgroundchanging = setInterval(() => {
       let randomNumber = Math.floor(Math.random() * imgs.length);
       document.querySelector(".landing").style.backgroundImage =
-        "url(/imgs/" + imgs[randomNumber] + ")";
+        "url(imgs/" + imgs[randomNumber] + ")";
     }, 10000);
   }
 };
