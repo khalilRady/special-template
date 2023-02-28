@@ -251,7 +251,7 @@ z-index: 2001;
 
 /* start landing page */
 .landing {
-    background-image: url(imgs/01.jpg);
+    background-image: url(../imgs/01.jpg);
     background-size: cover;
     height: 100vh;
     transition: 0.3s;
